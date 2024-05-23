@@ -1,0 +1,7 @@
+.reference + .reference {
+    margin-top: 20px;
+  }
+  
+  .reference h3 {
+    margin-bottom: 5px;
+  }

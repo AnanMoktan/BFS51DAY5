@@ -1,0 +1,22 @@
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 -10px; /* Adjusts for padding */
+  }
+  
+  .skills-list li {
+    background-color: #e7e7e7;
+    margin: 5px 10px; /* Adjusts for padding */
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1 1 calc(33.333% - 20px); /* Flexbox item with a basis of 33.333% */
+    text-align: center; /* Centers text horizontally */
+  }
+  
+  @media (max-width: 768px) {
+    .skills-list li {
+      flex: 1 1 100%; /* Switches to vertical layout on smaller screens */
+    }
+  }

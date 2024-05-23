@@ -1,6 +1,6 @@
 import React from 'react'
-
-function about() {
+import "./about.css"
+function About() {
   return (
     <section id="about">
           <h2>About Me</h2>
@@ -12,4 +12,4 @@ function about() {
   )
 }
 
-export default about
+export default About

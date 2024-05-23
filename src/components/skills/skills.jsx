@@ -1,6 +1,6 @@
 import React from 'react'
-
-function skills() {
+import './skills.css'
+function Skills() {
   return (
     <section id="skills">
     <h2>Skills</h2>
@@ -22,4 +22,4 @@ function skills() {
   )
 }
 
-export default skills
+export default Skills

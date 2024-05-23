@@ -1,6 +1,6 @@
 import React from 'react'
-
-function experience() {
+import "./experience.css"
+function Experience() {
   return (
     <section id="experience">
           <h2>Experience</h2>
@@ -35,4 +35,4 @@ function experience() {
   )
 }
 
-export default experience
+export default Experience

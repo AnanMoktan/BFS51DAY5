@@ -1,6 +1,7 @@
 import React from 'react'
+import "./header.css"
 
-function header() {
+function Header() {
   return (
     <header>
     <nav>
@@ -28,4 +29,4 @@ function header() {
   )
 }
 
-export default header
+export default Header
